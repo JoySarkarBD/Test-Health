@@ -1,0 +1,28 @@
+.purpose {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 0;
+  justify-content: space-between;
+}
+.purpose img {
+  width: 80%;
+  object-fit: contain;
+}
+.purpose-content p {
+  color: gray;
+}
+
+.list_content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.list_content .list {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.list_content .list span {
+  color: #0f4843c4;
+}
